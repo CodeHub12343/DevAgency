@@ -278,7 +278,7 @@ const TechnologiesSection = () => {
           <div className="glass-effect spacious-card max-w-2xl mx-auto">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6">Ready to Build Something Amazing?</h3>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-6 sm:mb-8">
-              Let's discuss your project requirements and how our technology expertise can bring your vision to life.
+              Let&apos;s discuss your project requirements and how our technology expertise can bring your vision to life.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}

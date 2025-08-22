@@ -123,7 +123,7 @@ const ContactSection = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8"
           >
-            Let's Build Something <span className="gradient-text">Amazing</span> Together
+            Let&apos;s Build Something <span className="gradient-text">Amazing</span> Together
           </motion.h2>
           
           <motion.p
@@ -133,7 +133,7 @@ const ContactSection = () => {
             className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto"
           >
             Ready to transform your ideas into reality? Get in touch with us and 
-            let's discuss how we can help bring your vision to life.
+            let&apos;s discuss how we can help bring your vision to life.
           </motion.p>
         </motion.div>
 
@@ -156,7 +156,7 @@ const ContactSection = () => {
                 <CheckCircle className="w-12 h-12 sm:w-16 sm:h-16 text-green-500 mx-auto mb-4 sm:mb-6" />
                 <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4">Message Sent Successfully!</h4>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  Thank you for reaching out. We'll get back to you within 24 hours.
+                  Thank you for reaching out. We&apos;ll get back to you within 24 hours.
                 </p>
               </motion.div>
             ) : (
@@ -280,7 +280,7 @@ const ContactSection = () => {
                          <div>
                <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6 sm:mb-8">Get In Touch</h3>
                <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-8 sm:mb-10">
-                 We're here to help you bring your digital vision to life. 
+                 We&apos;re here to help you bring your digital vision to life. 
                  Reach out to us through any of the channels below.
                </p>
              </div>

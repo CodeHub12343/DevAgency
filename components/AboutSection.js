@@ -85,7 +85,7 @@ const AboutSection = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8"
           >
-            We're a <span className="gradient-text">Passionate Team</span> of
+            We&apos;re a <span className="gradient-text">Passionate Team</span> of
             <br className="hidden sm:block" />Digital Innovators
           </motion.h2>
           
@@ -95,7 +95,7 @@ const AboutSection = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto"
           >
-            With over 5 years of experience in the digital landscape, we've helped 
+            With over 5 years of experience in the digital landscape, we&apos;ve helped 
             businesses of all sizes transform their ideas into powerful digital solutions.
           </motion.p>
         </motion.div>
@@ -212,7 +212,7 @@ const AboutSection = () => {
               </div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-4 sm:mb-6">Innovation at Every Step</h4>
               <p className="text-xs sm:text-sm text-muted-foreground mb-6 sm:mb-8">
-                We don't just build applications; we create digital experiences that 
+                We don&apos;t just build applications; we create digital experiences that 
                 inspire and engage users while driving business growth.
               </p>
               <div className="grid grid-cols-2 gap-4 sm:gap-6">

@@ -369,7 +369,7 @@ const PortfolioSection = () => {
            <div className="glass-effect spacious-card max-w-2xl mx-auto">
              <h3 className="text-subheading mb-4 sm:mb-6">Ready to Start Your Project?</h3>
              <p className="text-body text-muted-foreground mb-6 sm:mb-8">
-               Let's discuss how we can bring your ideas to life with our expertise and innovative solutions.
+               Let&apos;s discuss how we can bring your ideas to life with our expertise and innovative solutions.
              </p>
              <motion.button
                whileHover={{ scale: 1.05 }}
