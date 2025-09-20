@@ -40,15 +40,17 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto container-spacing px-4">
         <div className="flex justify-between items-center h-14 sm:h-16 lg:h-20">
           {/* Logo */}
-          <motion.div
+          <motion.a
+            href="#home"
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg sm:text-xl">D</span>
-            </div>
-            <span className="text-base sm:text-lg font-bold gradient-text">DevAgency Pro</span>
-          </motion.div>
+            <img
+              src="/WhatsApp Image 2025-09-16 at 4.17.18 AM.jpeg"
+              alt="Site logo"
+              className="h-8 w-auto sm:h-10"
+            />
+          </motion.a>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8 xl:space-x-10">
@@ -62,13 +64,16 @@ const Navigation = () => {
                 {item.name}
               </motion.a>
             ))}
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href="https://www.instagram.com/webs_by_emmanuel?igsh=MWE0Y2VzNmxlaTVjbw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary text-primary-foreground px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-xs sm:text-sm font-medium hover:bg-primary/90 transition-colors duration-200"
             >
               Get Started
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -105,13 +110,16 @@ const Navigation = () => {
                   {item.name}
                 </motion.a>
               ))}
-              <motion.button
+              <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                href="https://www.instagram.com/webs_by_emmanuel?igsh=MWE0Y2VzNmxlaTVjbw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full bg-primary text-primary-foreground px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-xs sm:text-sm font-medium hover:bg-primary/90 transition-colors duration-200"
               >
                 Get Started
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
         )}

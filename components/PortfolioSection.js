@@ -12,55 +12,42 @@ const PortfolioSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const filters = [
-    { id: 'all', label: 'All Projects' },
-    { id: 'web', label: 'Web Apps' },
-    { id: 'mobile', label: 'Mobile Apps' },
-    { id: 'ecommerce', label: 'E-commerce' },
-    { id: 'saas', label: 'SaaS Platforms' }
+  
+    { id: 'Recent Projects', label: 'Recent Projects' }
+    
   ]
 
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      category: "ecommerce",
-      description: "A modern e-commerce platform with advanced features like real-time inventory, payment processing, and analytics dashboard.",
-      image: "/editied-dashboard.jpg", 
+      title: "E-Commerce Admin Platform",
+      category: "Recent Projects",
+      description: "The ShopHub Admin Platform is a React-based control panel for managing the entire e-commerce ecosystem. Admins can oversee products, categories, customers, orders, and payments while monitoring sales analytics and performance. With React Query for real-time data, Styled Components for consistent design, and Paystack backend integration, it provides a modern, scalable, and efficient admin experience for online store operators.",
+      image: "/new one .jpg", 
      
       liveUrl: "https://shopdirect.onrender.com",
       githubUrl: "https://github.com/CodeHub12343/shopDirect",
      
     },
+    
     {
       id: 2,
-      title: "Task Management SaaS",
-      category: "saas",
-      description: "A comprehensive project management tool with team collaboration, time tracking, and reporting features.",
-      image: "/SharedScreenshothvkv.jpg",
-      
-      liveUrl: "https://wanderworld-6.onrender.com",
-      githubUrl: "https://github.com/CodeHub12343/wanderworld",
-     
-    },
-    {
-      id: 3,
-      title: "Fitness Tracking App",
-      category: "mobile",
-      description: "A mobile fitness app with workout tracking, nutrition planning, and social features for fitness enthusiasts.",
-      image: "/bankist-arrsy.jpg",
-     
-      liveUrl: "https://fancy-zabaione-1d08be.netlify.app/",
-      githubUrl: "https://github.com/CodeHub12343/shopDirect-website",
-          
-    },
-    {
-      id: 4,
-      title: "Fitness Tracking App",
-      category: "mobile",
-      description: "A mobile fitness app with workout tracking, nutrition planning, and social features for fitness enthusiasts.",
+      title: "The ShopDirect Website",
+      category: "Recent Projects",
+      description: "ShopDirect is a modern e-commerce home page built with React and Styled Components, featuring dynamic product sections (hero slider, featured products, flash deals, best sellers, testimonials) and conversion-focused design (newsletter signup, promotional blocks, countdown timers). It’s fully responsive, accessible, and optimized for performance with React Query for data fetching and caching. Backend-ready with REST API integration, it provides a strong foundation for a complete online store.",
       image: "/Annotation 2025-08-18 064256.jpg",
       liveUrl: "https://shopdirect-website.onrender.com",
       githubUrl: "https://github.com/CodeHub12343/shopDirect-website",
+      
+    },
+    {
+      id: 3,
+      title: "School Management System",
+      category: "Recent Projects",
+      description: "A Node.js + Express backend powering a full-featured school management system. It handles authentication with RBAC, student/teacher/class management, attendance tracking, assignments with S3 file uploads, grading and teacher reviews, computer-based testing with auto-grading, and financials (invoices, split payments, late fees) via Paystack. Built-in notification system (email/SMS/in-app) and comprehensive analytics/reporting provide a robust foundation for schools to manage operations digitally..",
+      image: "/Annotation 2025-09-15 112950.jpg",
+      liveUrl: "https://grace-elite-academy.onrender.com/",
+      githubUrl: "https://github.com/CodeHub12343/grace-elite-academy",
       
     }
   
@@ -112,7 +99,7 @@ const PortfolioSection = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-heading mb-8"
           >
-            Showcasing Our <span className="gradient-text">Best Work</span>
+            Showcasing Our <span className="gradient-text">Latest Projects</span>
           </motion.h2>
           
           <motion.p
@@ -371,13 +358,16 @@ const PortfolioSection = () => {
              <p className="text-body text-muted-foreground mb-6 sm:mb-8">
                Let&apos;s discuss how we can bring your ideas to life with our expertise and innovative solutions.
              </p>
-             <motion.button
+             <motion.a
                whileHover={{ scale: 1.05 }}
                whileTap={{ scale: 0.95 }}
+               href="https://www.instagram.com/webs_by_emmanuel?igsh=MWE0Y2VzNmxlaTVjbw%3D%3D"
+               target="_blank"
+               rel="noopener noreferrer"
                className="bg-primary text-primary-foreground px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-lg text-sm sm:text-base font-semibold hover:bg-primary/90 transition-colors duration-200"
              >
                Get Started Today
-             </motion.button>
+             </motion.a>
            </div>
          </motion.div>
       </div>

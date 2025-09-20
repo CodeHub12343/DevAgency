@@ -15,6 +15,11 @@ export const metadata = {
   creator: 'DevAgency Pro',
   publisher: 'DevAgency Pro',
   robots: 'index, follow',
+  icons: {
+    icon: '/WhatsApp Image 2025-09-16 at 4.17.18 AM.jpeg',
+    shortcut: '/WhatsApp Image 2025-09-16 at 4.17.18 AM.jpeg',
+    apple: '/WhatsApp Image 2025-09-16 at 4.17.18 AM.jpeg',
+  },
   openGraph: {
     title: 'DevAgency Pro - Full-Stack Development Solutions',
     description: 'Leading full-stack development agency specializing in modern web applications, mobile apps, and digital solutions.',

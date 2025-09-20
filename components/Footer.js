@@ -52,10 +52,11 @@ const Footer = () => {
               className="mb-4 sm:mb-6"
             >
               <div className="flex items-center space-x-2 mb-3 sm:mb-4">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg sm:text-xl">D</span>
-                </div>
-                <span className="text-base sm:text-lg font-bold gradient-text">DevAgency Pro</span>
+                <img
+                  src="/WhatsApp Image 2025-09-16 at 4.17.18 AM.jpeg"
+                  alt="Site logo"
+                  className="h-8 w-auto sm:h-10"
+                />
               </div>
               <p className="text-xs sm:text-sm text-muted-foreground mb-6 sm:mb-8 max-w-md">
                 Leading full-stack development agency specializing in modern web applications, 
